@@ -2,5 +2,8 @@
 
 Projeto desenvolvido para praticar Git e GitHub.
 
-Funcionalidades:
+Funcionalidades atuais:
 - Soma de dois números.
+
+Funcionalidades planejadas:
+- Subtração.
