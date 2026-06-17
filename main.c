@@ -4,6 +4,10 @@ float somar(float a, float b) {
     return a + b;
 }
 
+float subtrair(float a, float b) {
+    return a - b;
+}
+
 int main() {
     float a, b;
 
@@ -13,7 +17,8 @@ int main() {
     printf("Digite o segundo numero: ");
     scanf("%f", &b);
 
-    printf("Resultado da soma: %.2f\n", somar(a, b));
+    printf("Soma: %.2f\n", somar(a, b));
+    printf("Subtracao: %.2f\n", subtrair(a, b));
 
     return 0;
 }
